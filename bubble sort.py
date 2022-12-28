@@ -6,6 +6,6 @@ def countSwaps(a):
             if a[j] > a[j+1]:
                 a[j],a[j+1] = a[j+1],a[j]
                 count += 1
-    print(f'''Array is sorted in {count} swaps.
+    print(f'''Array is sorted in {count} swaps
 First Element: {a[0]}
 Last Element: {a[len(a) - 1]}''')
